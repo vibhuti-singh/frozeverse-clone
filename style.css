@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pathway+Extreme:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+
+.main-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/back-ground.avif");
+background-size: cover;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+.upper-part{
+    height: 15%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.part-1-upper{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(202, 202, 202);
+    font-family: 'Pathway Extreme', sans-serif;
+}
+.language{
+    height: 25%;
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 8px;
+    font-size: 12px;
+}
+.list{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+   
+}
+.list ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+}
+.sign-in{
+    height: 35%;
+    width: 10%;
+    background-color: transparent;
+    border: 1px solid rgb(194, 194, 194);
+    color: rgb(230, 230, 230);
+    border-radius: 8px;
+}
+.middle-part{
+    height:75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.middle-upper{
+    height: 60%;
+    width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.middle-upper h1{
+    font-size: 70px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+span{
+    display: flex;
+    height: 15%;
+    width: 30%;
+    align-items: center;
+    justify-content: space-between;
+}
+span button{
+    width: 60%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: rgb(3,65,238);
+background: radial-gradient(circle, rgba(3,65,238,1) 0%, rgba(37,230,251,1) 100%);
+}
+span p{
+    font-size: 13px;
+    color: rgb(207, 207, 207);
+}
+.middle-lower{
+    height: 25%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.circle, .app-store{
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+.circle img{
+    height: 50%;
+}
+.app-store img{
+    height: 35%;
+}
+@media(max-width:760px){
+    .list{
+        display: none;
+    }
+    .language{
+        width: 15%;
+        height: 35%;
+    }
+    .sign-in{
+        width: 25%;
+    }
+    span{
+        width: 90%;
+    }
+    .app-store img{
+        height: 40%;
+    }
+}
