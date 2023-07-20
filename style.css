@@ -89,7 +89,7 @@ ul li{
 span{
     display: flex;
     height: 15%;
-    width: 30%;
+    width: 33%;
     align-items: center;
     justify-content: space-between;
 }
@@ -103,7 +103,7 @@ span button{
 background: radial-gradient(circle, rgba(3,65,238,1) 0%, rgba(37,230,251,1) 100%);
 }
 span p{
-    font-size: 13px;
+    font-size: 14px;
     color: rgb(207, 207, 207);
 }
 .middle-lower{
@@ -136,9 +136,13 @@ span p{
         width: 25%;
     }
     span{
-        width: 90%;
+        width: 100%;
+    }
+    span p{
+        font-size: 11px;
     }
     .app-store img{
         height: 40%;
+        
     }
 }
